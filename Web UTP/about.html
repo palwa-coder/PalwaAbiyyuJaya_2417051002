@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="layout-grid">
+            <main class="content-area">
+                <header class="mb-text section-header">
+                    <h1 class="display-title">Tentang Saya</h1>
+                    <p class="lead-text mt-text">Deksripsi dan Riwayat Pendidikan</p>
+                </header>
+                <section id="bio-section" class="section-padding">
+                    <h2 class="section-subtitle">Deksripsi</h2>
+                    <div class="content-box border-theme p-custom">
+                        <p class="body-text">Mahasiswa Ilmu Komputer yang memiliki hobi kuat di dunia kepenulisan serta game berbasis teks.</p>
+                    </div>
+                </section>
+                <section id="history-section" class="section-padding mt-gap">
+                    <h2 class="section-subtitle">Riwayat Pendidikan</h2>
+                    <div class="grid-cards mt-gap">
+                        <div class="card shadow-sm border-0 cyber-card">
+                            <div class="card-body">
+                                <h3 class="card-title text-cyber-blue">Universitas</h3>
+                                <h4 class="card-subtitle mb-small text-muted">2024 - Sekarang</h4>
+                                <p class="body-text small">Universitas Lampung. Jurusan Ilmu Komputer.</p>
+                            </div>
+                        </div>
+                        <div class="card shadow-sm border-0 cyber-card">
+                            <div class="card-body">
+                                <h3 class="card-title text-cyber-blue">Pengalaman Organisasi</h3>
+                                <h4 class="card-subtitle mb-small text-muted">2025 - Sekarang</h4>
+                                <p class="body-text small">Komunitas Baca. Co-Founder Tim Kepenulisan. Wakil Ketua Tim Kepenulisan. Anggota Divisi Literasi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-padding">
+                    <h2 class="section-subtitle">Hobi & Minat</h2>
+                    <div class="d-flex gap-wrap">
+                        <span class="badge badge-hobby">Membaca buku.</span>
+                        <span class="badge badge-hobby">Menulis novel.</span>
+                        <span class="badge badge-hobby">Editor novel.</span>
+                        <span class="badge badge-hobby">Pembuatan text RPG game.</span>
+                    </div>
+                </section>
+            </main>
+            <aside class="sidebar-area">
+                <div class="text-center pb-space">
+                    <div class="circle-avatar">
+                        <img src="images/profile.jpg" alt="Foto Profil" class="img-fluid avatar-img">
+                    </div>
+                </div>
+                <nav class="navigation-menu">
+                    <div class="mobile-toggle">☰</div>
+                    <div class="collapse-menu show">
+                        <ul class="nav-list">
+                            <li><a class="nav-link text-muted" href="index.html">HOME</a></li>
+                            <li><a class="nav-link active fw-bold text-cyber-blue" href="about.html">ABOUT ME</a></li>
+                            <li><a class="nav-link text-muted" href="skills.html">SKILLS</a></li>
+                            <li><a class="nav-link text-muted" href="projects.html">PROJECTS</a></li>
+                            <li><a class="nav-link text-muted" href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="dark-mode-footer">
+                    <span class="footer-label">Mode Gelap:</span>
+                    <button id="darkModeToggle" class="btn-icon">Activate</button>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
